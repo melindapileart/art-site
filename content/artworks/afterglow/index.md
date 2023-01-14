@@ -7,5 +7,7 @@ price = "700"
 material = "Acrylic on Canvas"
 image = "images/8CC258AA-2950-4063-89AB-6C89849FADF9.jpg"
 statuses = [ "Current" ]
+hidden = false
+sold = true
 +++
 

@@ -4,8 +4,6 @@ title = 'Melinda Pile Art'
 theme = 'mpa'
 googleAnalytics = "UA-53387748-1"
 
-[taxonomies]
-status = "statuses"
 
 [params]
 # Style options: default (pink), blue, green, pink, red, sea, violet

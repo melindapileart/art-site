@@ -34,66 +34,62 @@
           <span>Current Artworks</span>
         </h3>
       </div>
-      {{ range $key, $taxonomy := .Site.Taxonomies.statuses }} 
-      {{if eq $key "current" }}
       <div class="row">
         <div class="small-12 column">
           <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
-            {{ range $taxonomy.Pages }}
-            {{if ne .Params.hide "yes"}}
+      {{ range .Site.RegularPages }}
+      {{ if ne .Params.hidden true }}
+      {{ if ne .Params.sold true }}
             {{- $image := .Resources.GetMatch .Params.image -}}
             <li>
               <div class="gallery-item pane">
                 <a href="{{.Permalink}}">
                   <img src="{{ ($image.Fill "250x250 q95 lancoz").RelPermalink }}" alt="">
-                  </a>
+                </a>
                 <h5>{{.Title}}</h5>
                 <div class="desc">
                   {{.Params.material}} Size: {{.Params.size}}
                 </div>
               </div>
             </li>
-            {{ end }}
-            {{ end }}
+      {{end}}
+      {{end}}
+      {{end}}
           </ul>
         </div>
-         </div>
+      </div>
     </div>
-        {{ end }}
-     
-    {{end}}
+
     <div class="row">
       <h3 class="small-12 category column">
         <span>Sold/Commission Works</span>
       </h3>
     </div>
-    {{ range $key, $taxonomy := .Site.Taxonomies.statuses }} 
-      {{if eq $key "sold" }}
       <div class="row">
         <div class="small-12 column">
           <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
-            {{ range $taxonomy.Pages }}
-            {{if ne .Params.hide "yes"}}
-            {{- $image := resources.GetMatch .Params.image -}}
+            {{ range .Site.RegularPages }}
+            {{ if ne .Params.hidden true }}
+            {{ if eq .Params.sold true }}
+            {{- $image := .Resources.GetMatch .Params.image -}}
             <li>
               <div class="gallery-item pane">
                 <a href="{{.Permalink}}">
                   <img src="{{ ($image.Fill "250x250 q95 lancoz").RelPermalink }}" alt="">
-                  </a>
+                </a>
                 <h5>{{.Title}}</h5>
                 <div class="desc">
                   {{.Params.material}} Size: {{.Params.size}}
                 </div>
               </div>
             </li>
-            {{ end }}{{ end }}
+            {{end}}
+            {{end}}
+            {{end}}
           </ul>
         </div>
          </div>
     </div>
-        {{ end }}
-     
-    {{end}}
   </div>
   <div class="container">
     <div class="main">

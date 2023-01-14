@@ -1,4 +1,3 @@
-publish_mode: editorial_workflow
 backend:
   name: github
   repo: melindapileart/art-site
@@ -31,7 +30,7 @@ collections:
     format: toml-frontmatter
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY" ,time_format: "HH:mm"}
       - { label: "Hidden", name: "hidden", widget: "boolean" , default: false }
       - { label: "Main Image", name: "image", widget: "image" , media_folder: "images" }
       - label: "Other Images"
@@ -46,7 +45,8 @@ collections:
       - { label: "Size", name: "size", widget: "string" }
       - { label: "Material", name: "material", widget: "string" }
       - { label: "Price", name: "price", widget: "string" }
-      - { label: "Statuses", name: "statuses", widget: "list" }
-      - { label: "Sold", name: "sold", widget: "boolean" }
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Statuses", name: "statuses", widget: "list", required: false  }
+      - { label: "Sold", name: "sold", widget: "boolean" , required: false }
+      - { label: "Commission", name: "commission", widget: "boolean" , required: false }
+      - {label: "Body", name: "body", widget: "markdown", required: false }
 
