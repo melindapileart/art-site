@@ -1,11 +1,10 @@
 +++
+title = "Cool Morning - includes floating oak frame"
 date = "2021-04-12 12:50:36"
-title = "Cool Morning (Framed in Oak)"
+image = "images/362733D8-AA9E-44C7-A93F-6373136242BE.jpg"
 seq = "146"
 size = "79cm x 79cm"
-price = "1050"
 material = "Acrylic on Linen"
-image = "images/362733D8-AA9E-44C7-A93F-6373136242BE.jpg"
-statuses = [ "Current" ]
+price = "1050"
+statuses = ["Current"]
 +++
-
