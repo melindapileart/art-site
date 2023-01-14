@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  {{ partial "head.html" . }} {{ template "_internal/google_analytics.html" . }}
+</head>
+
+<body>
+  <div class="row collapse" id="single">
+    <div class="small-12 column">
+      <div class="img-title">
+        <div class="maintitle" style="padding-left: 20px">
+          Melinda Pile
+          <div class="maintitle2"> Art &amp; Design</div>
+        </div>
+        <div class="opacitor"></div>
+      </div>
+    </div>
+    <div class="small-5 column">
+    </div>
+    <hr>
+  </div>
+  <section id="main">
+    <div class="row">
+      <div class="small-12 column">
+        <h1 id="title">{{ .Title }}</h1>
+        <div class="mi_block">
+          {{- $image := .Resources.Get .Params.image -}}
+          <div>{{ .Resources.GetMatch "images" }}</div>
+          <img src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+          <article id="stats">
+            <div>
+              <strong>Size:</strong> {{.Params.size}}
+            </div>
+            <div><strong>Material:</strong> {{.Params.material}}</div>
+            <div><strong>Price:</strong> {{.Params.price}}</div>
+          </article>
+         
+        </div>
+      </div>
+     <article id="content">
+            {{ .Content }}
+          </article>
+
+    </div>
+  </section>
+
+</body>

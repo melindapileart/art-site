@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  {{ partial "head.html" . }} {{ template "_internal/google_analytics.html" . }}
+</head>
+
+<body>
+  <div id="page" class="hfeed site">
+    <div class="row collapse">
+      <div class="small-7 column">
+        <div class="img-title">
+          <div class="maintitle">
+            Melinda Pile
+            <div class="maintitle2"> Art &amp; Design</div>
+          </div>
+          <div class="opacitor"></div>
+        </div>
+      </div>
+      <div class="small-5 column">
+        <div class="side-title">
+          For Sales or Commissions, contact <a href="mailto:melindapileartanddesign@gmail.com">melindapileartanddesign@gmail.com</a>
+          <div style="padding-top: 8px;">Instagram: <a href="https://www.instagram.com/melindapileart">@melindapileart</a></div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div id="content" class="site-content">
+      <div class="row" style="padding-left: 20px; padding-bottom: 20px;">
+        A selection of for sale, sold and commission art by Melinda Pile.
+      </div>
+      <div class="row">
+        <h3 class="small-12 category column">
+          <span>Current Artworks</span>
+        </h3>
+      </div>
+      {{ range $key, $taxonomy := .Site.Taxonomies.statuses }} 
+      {{if eq $key "current" }}
+      <div class="row">
+        <div class="small-12 column">
+          <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
+            {{ range $taxonomy.Pages }}
+            {{if ne .Params.hide "yes"}}
+            {{- $image := .Resources.GetMatch .Params.image -}}
+            <li>
+              <div class="gallery-item pane">
+                <a href="{{.Permalink}}">
+                  <img src="{{ ($image.Fill "250x250 q95 lancoz").RelPermalink }}" alt="">
+                  </a>
+                <h5>{{.Title}}</h5>
+                <div class="desc">
+                  {{.Params.material}} Size: {{.Params.size}}
+                </div>
+              </div>
+            </li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+         </div>
+    </div>
+        {{ end }}
+     
+    {{end}}
+    <div class="row">
+      <h3 class="small-12 category column">
+        <span>Sold/Commission Works</span>
+      </h3>
+    </div>
+    {{ range $key, $taxonomy := .Site.Taxonomies.statuses }} 
+      {{if eq $key "sold" }}
+      <div class="row">
+        <div class="small-12 column">
+          <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
+            {{ range $taxonomy.Pages }}
+            {{if ne .Params.hide "yes"}}
+            {{- $image := resources.GetMatch .Params.image -}}
+            <li>
+              <div class="gallery-item pane">
+                <a href="{{.Permalink}}">
+                  <img src="{{ ($image.Fill "250x250 q95 lancoz").RelPermalink }}" alt="">
+                  </a>
+                <h5>{{.Title}}</h5>
+                <div class="desc">
+                  {{.Params.material}} Size: {{.Params.size}}
+                </div>
+              </div>
+            </li>
+            {{ end }}{{ end }}
+          </ul>
+        </div>
+         </div>
+    </div>
+        {{ end }}
+     
+    {{end}}
+  </div>
+  <div class="container">
+    <div class="main">
+      {{ partial "footer.html" . }}
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+body {
+    font-family: raleway;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat';
+}
+
+.pane {
+    border: solid 1px #aaa;
+    background-color: white;
+    boxshadow: 2px 2px 4px #000;
+    margin-bottom: 12px;
+
+}
+
+.pane h5 {
+    margin-top: 4px;
+    padding: 4px 12px;
+    padding-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    bosrder-bottom: solid 1px #f0f0f0;
+
+}
+
+.pane img {
+    width: 100%;
+    hight: 200px;
+}
+
+.pane .desc {
+    font-size: 80%;
+    padding: 2px 16px;
+    mn-height: 200px;
+    padding-left: 24px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.pane .opt-link {
+    border-top: solid 1px #ddd;
+    margin-top: 8px;
+    padding: 12px;
+    padding-left: 16px;
+    font-size: 80%;
+}
+
+body {
+    background-color: #fff;
+}
+
+.side-title {
+    border-left: solid 1px #aaa;
+    padding: 20px;
+    margin: 20px;
+    font-weight: normal;
+    font-size: 80%;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.category {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    margin-bottom: 18px;
+    color: black;
+    border-bottom: solid 1px black;
+    padding-bottom: 5px;
+}
+
+.img-title {
+    background-image: url("/images/banner.jpg");
+    in-width: 400px;
+    height: 200px;
+    ackground-color: rgba(0, 8, 255, 0.27);
+}
+
+.opacitor {
+    float: right;
+    width: 100px;
+    height: 100%;
+    background-image: url("/images/opacitor.png");
+}
+
+.maintitle {
+    float: left;
+    margin: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 48px;
+    text-shadow: 0 0 12px white;
+    color: black;
+    margin-top: 30px;
+}
+
+.maintitle2 {
+    font-size: 28px;
+    font-family: raleway, sans-serif;
+}
+
+#single .img-title {
+    height: 100px;
+}
+
+#single .maintitle {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.profile {
+    float: right;
+}
+
+#post-4 .entry-header .entry-title {
+    display: none;
+}
+
+.site-footer {  display: none;}
+
+.attachment .description {
+    padding-top: 20px;
+}
+
+.attachment .meta {
+    padding-top: 20px;
+    text-algn: right;
+}
+
+.mainimage {
+    max-width: 1000px;
+}
+
+.mi_block {
+padding: 10px;
+}
+
+.mi_block article#stats div {
+    padding: 5px;
+}
+
+.mi_block img {
+    max-width: 600px;
+    mx-height: 800px;
+    width: 100%;
+    float: left;
+    margin: 10px;
+}
+
+section#main {
+    padding: 5px;
+}
