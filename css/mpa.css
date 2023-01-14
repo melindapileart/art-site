@@ -72,7 +72,7 @@ body {
 }
 
 .img-title {
-    background-image: url("/images/banner.jpg");
+    background-image: url("../images/banner.jpg");
     in-width: 400px;
     height: 200px;
     ackground-color: rgba(0, 8, 255, 0.27);
@@ -82,7 +82,7 @@ body {
     float: right;
     width: 100px;
     height: 100%;
-    background-image: url("/images/opacitor.png");
+    background-image: url("../images/opacitor.png");
 }
 
 .maintitle {
