@@ -14,6 +14,7 @@ collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "content/posts"
+    hide: true
     create: false # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
@@ -26,6 +27,7 @@ collections:
     label: "Artwork"
     folder: "content/artworks"
     create: true
+    path: "{{slug}}/index.md"
     format: toml-frontmatter
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -35,14 +37,16 @@ collections:
       - label: "Other Images"
         name: "image_list"
         widget: "image"
+        required: false
         media_folder: "images"
         media_library:
           config:
             multiple: true
-      - { label: "Sequence", name: "seq", widget: "string" }
+      - { label: "Sequence", name: "seq", widget: "string", required: false }
       - { label: "Size", name: "size", widget: "string" }
       - { label: "Material", name: "material", widget: "string" }
       - { label: "Price", name: "price", widget: "string" }
       - { label: "Statuses", name: "statuses", widget: "list" }
       - { label: "Sold", name: "sold", widget: "boolean" }
+      - {label: "Body", name: "body", widget: "markdown"}
 
