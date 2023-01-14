@@ -1,5 +1,5 @@
 +++
-title = "Spice Market - Four Domes"
+title = "Spice Market - Four Domes - includes floating ash frame"
 date = 2023-01-14T22:38:25.554Z
 hidden = false
 image = "images/img_1506.png"
