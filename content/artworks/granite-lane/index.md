@@ -5,5 +5,5 @@ hidden = false
 image = "images/no-2_lr.png"
 size = "76cm by 76cm"
 material = "Acrylic on linen"
-price = "880"
+price = "$880"
 +++
