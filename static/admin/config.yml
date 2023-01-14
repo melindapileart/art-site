@@ -7,16 +7,42 @@ backend:
   auth_endpoint: /prod/auth
 site_id: blah
 media_folder: "assets/images"
-public_folder: "/images"
+public_folder: "assets/images"
+slug:
+  encoding: ascii
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "content/posts"
-    create: true # Allow users to create new documents in this collection
+    create: false # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured image", name: "thumbnail", widget: "image", required: false }
-      - {label: "Categories", name: "categories", widget: "list", default: ["news"]}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured image", name: "thumbnail", widget: "image", required: false }
+      - { label: "Categories", name: "categories", widget: "list", default: [ "news" ] }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "art"
+    label: "Artwork"
+    folder: "content/artworks"
+    create: true
+    format: toml-frontmatter
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Hidden", name: "hidden", widget: "boolean" , default: false }
+      - { label: "Main Image", name: "image", widget: "image" , media_folder: "images" }
+      - label: "Other Images"
+        name: "image_list"
+        widget: "image"
+        media_folder: "images"
+        media_library:
+          config:
+            multiple: true
+      - { label: "Sequence", name: "seq", widget: "string" }
+      - { label: "Size", name: "size", widget: "string" }
+      - { label: "Material", name: "material", widget: "string" }
+      - { label: "Price", name: "price", widget: "string" }
+      - { label: "Statuses", name: "statuses", widget: "list" }
+      - { label: "Sold", name: "sold", widget: "boolean" }
+
