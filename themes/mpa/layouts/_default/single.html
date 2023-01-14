@@ -26,7 +26,6 @@
         <h1 id="title">{{ .Title }}</h1>
         <div class="mi_block">
           {{- $image := .Resources.Get .Params.image -}}
-          <div>{{ .Resources.GetMatch "images" }}</div>
           <img src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
           <article id="stats">
             <div>

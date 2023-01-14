@@ -1,6 +1,6 @@
-baseURL = 'https://melindapileart.github.io/art-site/'
+baseURL = 'https://melindapileart.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Melinda Pile Art'
 theme = 'mpa'
 googleAnalytics = "UA-53387748-1"
 
