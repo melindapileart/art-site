@@ -5,6 +5,6 @@ image = "images/E84E9574-454E-4DC1-B24B-853D6EF7CC0F.jpg"
 seq = "150"
 size = "93cm x 93cm"
 material = "Acrylic on Canvas"
-price = "1400"
+price = "$1,400"
 statuses = ["Current"]
 +++
