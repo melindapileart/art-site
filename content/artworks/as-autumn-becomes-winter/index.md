@@ -5,6 +5,6 @@ image = "images/586225A9-E4DE-4A81-9E03-FBCC02F1623A.jpg"
 seq = "120"
 size = "122cm x 122cm"
 material = "Acrylic on Linen"
-price = "2100"
+price = "$2,100"
 statuses = ["Current"]
 +++
