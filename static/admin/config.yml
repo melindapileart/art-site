@@ -31,7 +31,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY" ,time_format: "HH:mm"}
-      - { label: "Hidden", name: "hidden", widget: "boolean" , default: false }
+      - { label: "Hidden", name: "hidden", widget: "boolean" , default: false , required: false }
       - { label: "Main Image", name: "image", widget: "image" , media_folder: "images" }
       - label: "Other Images"
         name: "image_list"
