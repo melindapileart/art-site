@@ -1,5 +1,5 @@
 +++
-title = "Primulas and Ferns by the Pond"
+title = "Primulas and Ferns by the Pond - includes floating ash frame"
 date = 2023-01-15T01:52:04.722Z
 hidden = false
 image = "images/img_2280.png"
