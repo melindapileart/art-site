@@ -1,5 +1,5 @@
 +++
-title = "Venetian Red Twilight"
+title = "Venetian Red Twilight - includes floating gum frame"
 date = 2023-01-15T01:46:28.683Z
 hidden = false
 image = "images/img_2236.png"
