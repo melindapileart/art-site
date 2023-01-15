@@ -1,5 +1,5 @@
 +++
-title = "First Light Glow"
+title = "First Light Glow - includes floating oak frame"
 date = 2023-01-15T00:25:17.399Z
 hidden = false
 image = "images/img_2072.png"
