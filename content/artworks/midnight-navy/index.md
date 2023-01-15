@@ -1,5 +1,5 @@
 +++
-title = "Midnight Navy - includes floating oak frame"
+title = "Midnight Navy - includes floating blackwood frame"
 date = 2023-01-14T23:16:39.051Z
 hidden = false
 image = "images/img_1886.png"
