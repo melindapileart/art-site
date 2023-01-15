@@ -1,5 +1,5 @@
 +++
-title = "Spice Market - Vista 1"
+title = "Spice Market - Vista 1 - includes floating oak frame"
 date = 2023-01-14T22:45:42.699Z
 hidden = false
 image = "images/img_1514.png"
