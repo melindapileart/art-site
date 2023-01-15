@@ -1,5 +1,5 @@
 +++
-title = "Idyllic"
+title = "Idyllic - includes floating ash frame"
 date = 2023-01-15T01:43:49.195Z
 hidden = false
 image = "images/img_2210.png"
