@@ -1,5 +1,5 @@
 +++
-title = "In The Understory"
+title = "In The Understory - includes floating ash frame"
 date = 2023-01-15T00:22:00.089Z
 hidden = false
 image = "images/img_1950.png"
