@@ -1,5 +1,5 @@
 +++
-title = "Coastline"
+title = "Coastline - includes floating oak frame"
 date = 2023-01-15T01:41:45.234Z
 hidden = false
 image = "images/img_2174.png"
