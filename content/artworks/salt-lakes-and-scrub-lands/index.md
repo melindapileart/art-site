@@ -1,5 +1,5 @@
 +++
-title = "Salt Lakes and Scrub Lands"
+title = "Salt Lakes and Scrub Lands - includes floating ash frame"
 date = 2023-01-15T01:54:57.290Z
 hidden = false
 image = "images/img_0512.png"
