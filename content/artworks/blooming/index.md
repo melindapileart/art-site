@@ -1,5 +1,5 @@
 +++
-title = "Blooming"
+title = "Blooming - includes floating ash frame"
 date = 2023-01-15T00:24:14.048Z
 hidden = false
 image = "images/img_2038.png"
