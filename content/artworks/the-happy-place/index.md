@@ -1,5 +1,5 @@
 +++
-title = "The Happy Place"
+title = "The Happy Place - includes floating gum frame"
 date = 2023-01-18T02:26:30.980Z
 hidden = false
 image = "images/img_0517.png"
