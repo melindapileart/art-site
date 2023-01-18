@@ -1,6 +1,6 @@
 +++
 title = "Turtle Dove"
-date = "2020-12-01 04:17:34"
+date = 2023-01-18T02:46:01.995Z
 image = "images/fullsizerender.png"
 seq = "133"
 size = "79cm x 79cm"
