@@ -1,5 +1,5 @@
 +++
-title = "Botanical Nouveau - Moonlight"
+title = "Botanical Nouveau - Moonlight - Includes floating Gum frame"
 date = 2023-01-18T02:38:17.988Z
 hidden = false
 image = "images/img_0551.png"
