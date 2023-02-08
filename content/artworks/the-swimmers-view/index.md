@@ -1,5 +1,5 @@
 +++
-title = "The Swimmers View"
+title = "The Swimmers View - includes floating Ash frame"
 date = 2023-02-08T06:09:59.731Z
 hidden = false
 image = "images/fullsizerender-1-.png"
