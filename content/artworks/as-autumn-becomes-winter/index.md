@@ -7,4 +7,5 @@ size = "122cm x 122cm"
 material = "Acrylic on Linen"
 price = "$2,100"
 statuses = ["Current"]
+sold = true
 +++
