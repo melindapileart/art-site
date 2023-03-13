@@ -1,5 +1,5 @@
 +++
-title = "Spice Market - The Yellow Door (includes oak floating frame)"
+title = "Spice Market - The Yellow Door - includes oak floating frame"
 date = 2023-03-13T01:19:53.781Z
 hidden = false
 image = "images/melinda-pile-spice-market-the-yellow-door.png"
