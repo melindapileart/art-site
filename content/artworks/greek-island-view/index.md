@@ -1,5 +1,5 @@
 +++
-title = "Greek Island View "
+title = "Greek Island View - includes floating whitewash ash frame"
 date = 2023-03-13T01:30:18.365Z
 hidden = false
 image = "images/greek-island-view.png"
