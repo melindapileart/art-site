@@ -6,4 +6,5 @@ image = "images/fullsizerender-1-.png"
 size = "103 cm by 123cm"
 material = "Acrylic on canvas "
 price = "$2,200"
+sold = true
 +++
