@@ -5,6 +5,6 @@ hidden = false
 image = "images/img_2650.png"
 size = "152cm by 100cm"
 material = "Ac on canvas "
-price = "2200"
+price = "$2,200"
 sold = true
 +++
