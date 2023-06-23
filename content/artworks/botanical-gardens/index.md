@@ -1,5 +1,5 @@
 +++
-title = "Botanical Gardens"
+title = "Botanical Gardens - including whitewashed ash floating frame"
 date = 2023-06-23T03:39:26.913Z
 hidden = false
 image = "images/img_2694.png"
