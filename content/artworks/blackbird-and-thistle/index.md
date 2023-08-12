@@ -1,5 +1,5 @@
 +++
-title = "Blackbird and Thistle - including Blackwood floating frame"
+title = "Blackbird and Thistle - including Blackwood floating frame (frame is Blackwood NOT Black)"
 date = 2023-08-12T00:40:06.390Z
 hidden = false
 image = "images/img_2773.png"
