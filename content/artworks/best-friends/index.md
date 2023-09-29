@@ -6,5 +6,5 @@ image = "images/melinda-pile-best-friends.png"
 size = "43cm by 53cm"
 material = "Acrylic on canvas "
 price = "$800"
-sold = true
+sold = false
 +++
