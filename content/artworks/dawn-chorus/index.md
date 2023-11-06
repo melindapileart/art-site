@@ -6,4 +6,5 @@ image = "images/img_2684.png"
 size = "83cm by 83cm"
 material = "Mixed Media - Material and acrylic paint on canvas with a satin varnish"
 price = "$1,250"
+sold = true
 +++
