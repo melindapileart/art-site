@@ -5,6 +5,6 @@ hidden = false
 image = "images/img_0551.png"
 size = "103cm by 123cm"
 material = "acrylic on canvas"
-price = "$2,000"
+price = "$2,160"
 sold = false
 +++
