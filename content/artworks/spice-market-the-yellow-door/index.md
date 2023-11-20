@@ -5,6 +5,6 @@ hidden = false
 image = "images/melinda-pile-spice-market-the-yellow-door.png"
 size = "93cm by 123cm"
 material = "Acrylic on Canvas"
-price = "$1,950"
+price = "$2220"
 sold = true
 +++
