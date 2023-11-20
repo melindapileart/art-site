@@ -5,6 +5,6 @@ hidden = false
 image = "images/img_0655-2.png"
 size = "153 cm by 123 cm"
 material = "Acrylic on canvas with a satin varnish "
-price = "$3,100"
+price = "$3,500"
 sold = true
 +++
