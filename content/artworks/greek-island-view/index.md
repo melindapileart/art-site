@@ -6,4 +6,5 @@ image = "images/greek-island-view.png"
 size = "93cm by 123 cm"
 material = "Acrylic on canvas "
 price = "$2,220"
+sold = true
 +++
