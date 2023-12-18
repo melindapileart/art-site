@@ -6,4 +6,5 @@ image = "images/51808c60-4c64-4b29-b58c-e629fa278ec4.png"
 size = "61cm by 61cm"
 material = "Acrylic on canvas "
 price = "$760"
+sold = true
 +++
