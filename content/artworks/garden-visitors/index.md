@@ -1,5 +1,5 @@
 +++
-title = "Garden Visitors"
+title = "Garden Visitors - including floating Blackwood frame"
 date = 2024-02-16T00:32:21.380Z
 hidden = false
 image = "images/img_3111.png"
