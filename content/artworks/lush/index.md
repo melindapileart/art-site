@@ -6,5 +6,5 @@ image = "images/img_3019.png"
 size = "122cm by 183cm "
 material = "Acrylic on canvas with a satin varnish. Unframed with finished edges."
 price = "$3,450"
-sold = false
+sold = true
 +++
