@@ -7,4 +7,5 @@ size = "93cm by 93cm"
 material = "Acrylic on canvas "
 price = "$1,750"
 sold = true
+printable = true
 +++
