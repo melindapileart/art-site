@@ -82,6 +82,11 @@
             {{- $image := .Resources.GetMatch .Params.image -}}
             <li>
               <div class="gallery-item pane">
+      {{ if eq .Params.printable true }}
+                <div class="printable">
+                  P
+                </div>
+      {{ end }}
                 <a href="{{.Permalink}}">
                   <img src="{{ ($image.Fill "500x500 q95 lancoz").RelPermalink }}" alt="">
                 </a>
