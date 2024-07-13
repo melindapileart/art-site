@@ -29,6 +29,9 @@
       <div class="row" style="padding-left: 20px; padding-bottom: 20px;">
         A selection of for sale, sold and commission art by Melinda Pile.
       </div>
+      <div class="row" style="padding-left: 20px; padding-bottom: 20px;">
+        Available as a limited edition print <div class="printable-inline">P</div>
+      </div>
       <div class="row">
         <h3 class="small-12 category column">
           <span>Current Artworks</span>
@@ -43,6 +46,11 @@
             {{- $image := .Resources.GetMatch .Params.image -}}
             <li>
               <div class="gallery-item pane">
+      {{ if eq .Params.printable true }}
+                <div class="printable">
+                  P
+                </div>
+      {{ end }}
                 <a href="{{.Permalink}}">
                   <img src="{{ ($image.Fill "500x500 q95 lancoz").RelPermalink }}" alt="">
                 </a>
