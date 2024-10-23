@@ -6,5 +6,6 @@ image = "images/img_3242.png"
 size = "101cm by 101cm"
 material = "Acrylic on canvas with satin varnish "
 price = "$1,200"
+sold = true
 printable = true
 +++
