@@ -6,5 +6,6 @@ image = "images/img_2773.png"
 size = "93cm by 93cm"
 material = "Acrylic on canvas"
 price = "$2,970"
+sold = true
 printable = true
 +++
