@@ -7,4 +7,5 @@ size = "101cm x 101cm"
 material = "Acrylic on Canvas"
 price = "$1,550"
 statuses = ["Current"]
+sold = true
 +++
