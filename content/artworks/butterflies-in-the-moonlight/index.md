@@ -6,4 +6,5 @@ image = "images/img_2705.png"
 size = "51cm by 61cm"
 material = "Mixed Media on Canvas"
 price = "$700"
+sold = true
 +++
