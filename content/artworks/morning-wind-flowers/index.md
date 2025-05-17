@@ -1,5 +1,5 @@
 +++
-title = "Morning Wind Flowers "
+title = "Morning Wind Flowers (includes floating ash frame)"
 date = 2025-05-17T01:15:27.495Z
 hidden = false
 image = "images/img_0476.png"
