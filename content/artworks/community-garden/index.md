@@ -1,5 +1,5 @@
 +++
-title = "Community Garden"
+title = "Community Garden (incudes floating Blackwood stained frame)"
 date = 2025-05-17T01:17:22.133Z
 hidden = false
 image = "images/melinda-pile-comunity-garden.png"
