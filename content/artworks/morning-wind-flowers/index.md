@@ -6,4 +6,5 @@ image = "images/img_0476.png"
 size = "156cm by 126cm"
 material = "Acrylic on canvas with satin varnish. Includes floating ash frame."
 price = "$4,300"
+sold = true
 +++
