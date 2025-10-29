@@ -6,5 +6,6 @@ image = "images/no-1_hr.png"
 size = "92cm by 122cm"
 material = "Acrylic on canvas "
 price = "$1,800"
+sold = true
 printable = true
 +++
