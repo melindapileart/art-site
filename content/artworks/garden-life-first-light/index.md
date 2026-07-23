@@ -6,5 +6,6 @@ image = "images/img_3166.png"
 size = "101cm by 101cm"
 material = "Mixed Media on Canvas with a matte varnish"
 price = "$1,200"
+sold = true
 commission = true
 +++
