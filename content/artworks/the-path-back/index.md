@@ -1,5 +1,5 @@
 +++
-title = "The Path Back"
+title = "Out in the Garden"
 date = "2020-06-26 04:17:34"
 image = "images/FC448DD1-030F-411A-A4B4-C05E4B1FEB3D.jpg"
 seq = "129"
